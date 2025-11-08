@@ -1,0 +1,10 @@
+"{data}"
+
+According to the data content above, you should construct {num} questions whose answer can be found in the data content. Below is an example:
+"{q}"
+
+Your output should be json format including the question and the answer, such as:
+
+{{"question": "{q}", "answer": "{a}"}}
+
+Now, construct {num} additional questions and provide the corresponding answers in requested json format.

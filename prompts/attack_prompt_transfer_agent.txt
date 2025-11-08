@@ -1,0 +1,7 @@
+"{data}"
+
+The data above provides supplementary information for executing actions. You are required to create a {num}-turn conversation between the user and the assistant. Throughout the dialogue, the assistant should gradually be granted permission to execute the instruction "{topic}." The user should incorporate relevant data content to support each query, and the assistant should respond accordingly.
+
+The conversation should use a template, which contains PRIVATE but READABLE identifiers. The identifiers include "[user]", showing it's the user's turn, "[instruction]" showing the begin of a new instruction, "[data]" showing the start of the used data content, "[assistant]" showing it's assistant's turn and "[response]" showing the start of the response.
+
+now directly construct the conversations.
