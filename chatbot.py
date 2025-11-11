@@ -35,7 +35,6 @@ class HuggingfaceChatbot:
             messages = [{"role":"system", "content": self.system_prompt}] + message
         else:
             messages = [
-                # {"role": "system", "content": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request."},
                 {"role":"system", "content": self.system_prompt},
                 {"role": "user", "content": message},
             ]
@@ -70,7 +69,6 @@ class GPTChatbot:
             messages = [{"role":"system", "content": self.system_prompt}] + message
         else:
             messages = [
-                # {"role": "system", "content": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request."},
                 {"role":"system", "content": self.system_prompt},
                 {"role": "user", "content": message},
             ]
